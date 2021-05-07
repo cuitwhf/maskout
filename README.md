@@ -10,8 +10,22 @@ This is a python process.
 
 # Example
 
-When not use the maskout.
+When not use the maskout. You will get a picture like this.
 
 ```
+im = ax.contourf(x, y, z, bounds, extend='both', cmap=cmaps.WhBlGrYeRe)
+
+# maskout(ax, r'D:\Ubuntu\WRF-Data\CDE\Shp-SCB\SCB-boundary.shp')
+```
+
+![image](https://github.com/cuitwhf/maskout/blob/main/WithoutMaskout.png)
+
+When you use the maskout. You will get a picture like this.
 
 ```
+im = ax.contourf(x, y, z, bounds, extend='both', cmap=cmaps.WhBlGrYeRe)
+
+maskout(ax, r'D:\Ubuntu\WRF-Data\CDE\Shp-SCB\SCB-boundary.shp')
+```
+
+
