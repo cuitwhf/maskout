@@ -28,4 +28,4 @@ im = ax.contourf(x, y, z, bounds, extend='both', cmap=cmaps.WhBlGrYeRe)
 maskout(ax, r'D:\Ubuntu\WRF-Data\CDE\Shp-SCB\SCB-boundary.shp')
 ```
 
-
+![image](https://github.com/cuitwhf/maskout/blob/main/WithMaskout.png)
